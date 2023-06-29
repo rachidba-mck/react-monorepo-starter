@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "jsx": "react"
+    // other options...
+  },
+  "include": ["../src/**/*.ts", "../src/**/*.tsx"]
+}
