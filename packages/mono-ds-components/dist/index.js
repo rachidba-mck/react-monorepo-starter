@@ -1,25 +1,14 @@
-import React from 'react';
+import MuiButton from '@mui/material/Button';
 
-const Palette = {
-    primary: "#0d47a1",
-    secondary: "#311b92",
-    text: "#263238",
-    white: "#FFFFFF"
-};
-const Spacing = {
-    small: 8,
-    medium: 16,
-    large: 24
-};
-
-const Button = (props) => {
-    const { children } = props;
-    const buttonStyle = {
-        color: Palette.white,
-        backgroundColor: Palette.primary,
-        padding: Spacing.small
-    };
-    return React.createElement("button", { style: buttonStyle }, children);
-};
+const Button = MuiButton;
+// export const Button = (props: { children: any; }) => {
+//   const { children } = props;
+//   const buttonStyle = {
+//     color: Palette.white,
+//     backgroundColor: Palette.primary,
+//     padding: Spacing.small
+//   };
+//   return <button style={buttonStyle}>{children}</button>;
+// }
 
 export { Button };

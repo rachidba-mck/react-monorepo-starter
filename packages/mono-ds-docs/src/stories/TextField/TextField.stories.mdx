@@ -1,0 +1,23 @@
+import { Meta, Story, Canvas, Source } from '@storybook/addon-docs/blocks';
+import { TextField } from 'mono-ds-components';
+
+<Meta title="Components/TextField" component={TextField} />
+
+# TextField
+
+Some description for the TextField component.
+
+### Code example
+<Source
+    language="tsx"
+    format={true}
+    code={`
+      import { TextField } from 'mono-ds-components';
+      <TextField variant="standard" label="Username" />
+    `}
+/>
+
+### Preview
+<Canvas>
+    <TextField variant="standard" label="Username" />
+</Canvas>

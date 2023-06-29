@@ -1,0 +1,42 @@
+import { Meta, Story, Canvas, Source } from '@storybook/addon-docs/blocks';
+import { Button } from 'mono-ds-components';
+
+<Meta title="Components/Button" component={Button} />
+
+# Buttons
+
+Some description for the button component.
+
+
+## Contained button
+### Code example
+<Source
+    language="tsx"
+    format={true}
+    code={`
+      import { Button } from 'mono-ds-components';
+      <Button variant="contained">Click me</Button>
+    `}
+/>
+
+### Preview
+<Canvas>
+  <Button variant="contained">Filled button</Button>
+</Canvas>
+
+
+## Outlined button
+### Code example
+<Source
+    language="tsx"
+    format={true}
+    code={`
+      import { Button } from 'mono-ds-components';
+      <Button variant="outlined">Contained</Button>
+    `}
+/>
+
+### Preview
+<Canvas>
+  <Button variant="outlined">Click me</Button>
+</Canvas>

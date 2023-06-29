@@ -1,4 +1,1 @@
-import React from 'react';
-export declare const Button: (props: {
-    children: any;
-}) => React.JSX.Element;
+export declare const Button: import("@mui/material").ExtendButtonBase<import("@mui/material/Button").ButtonTypeMap<{}, "button">>;
